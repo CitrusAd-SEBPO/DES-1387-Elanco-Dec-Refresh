@@ -1,0 +1,790 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+button {
+  font-family: "PetcoCircularTT-Bold", arial !important;
+}
+p {
+  font-family: "PetcoCircularTT-Regular", arial !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.brand-page-section {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.brand-page-section img {
+  width: 100%;
+}
+.elanco-cta-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  text-decoration: none;
+}
+
+.elanco-cta-box a {
+  color: #fff;
+  background-color: #00205b;
+  height: 54px;
+  font-family: "PetcoCircularTT-Bold", arial !important;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  text-decoration: none;
+  border-radius: 5px;
+  min-width: 200px;
+  text-transform: capitalize;
+  height: 56px;
+}
+
+/* Elanco brand page */
+.brand-page-section {
+  display: block;
+}
+
+.brand-page-section .container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.brand-page-section .container-fluid {
+  width: 100%;
+}
+.section-title {
+  color: #000;
+  font-family: "PetcoCircularTT-Bold", arial !important;
+  font-size: 25px;
+  padding: 46px 0 30px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.section-sub-title {
+  color: #333333;
+  font-family: "PetcoCircularTT-Regular", arial !important;
+  font-size: 16px;
+  padding: 0 0 40px;
+  text-align: center;
+  font-weight: 500;
+  margin-top: -20px;
+}
+
+/* Top Hero */
+.brand-page-section__top-hero {
+  background-image: url("https://assets.petco.com/petco/image/upload/f_auto,q_auto/elanco-POV_DSK");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.brand-page-section__top-hero--content {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.citrus-elance-pov__content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 53%;
+  max-height: 240px;
+  overflow: hidden;
+}
+
+.citrus-elance-pov__content--logo {
+  margin: 0 15px;
+  max-width: 140px;
+}
+
+.citrus-elance-pov__content--text {
+  padding: 70px 15px 0;
+}
+
+.citrus-elance-pov__content--text p {
+  font-family: "PetcoCircularTT-Regular", arial !important;
+  font-size: 12px;
+  color: #fff;
+  padding: 20px 0 0;
+  max-width: 550px;
+}
+
+.citrus-elance-pov__content--text .elanco-cta-box {
+  justify-content: flex-start;
+}
+
+.citrus-elance-pov__content--img {
+  padding: 10px 0 0;
+}
+
+.citrus-elance-pov__content--img img {
+  padding: 40px 0 0;
+}
+
+.brand-page-section__top-hero--content .headline {
+  font-family: "PetcoCircularTT-Bold", arial !important;
+  color: #022169;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 35px;
+  padding: 0 0 15px;
+}
+
+.brand-page-section__top-hero--content .col {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 50%;
+  padding: 36px 0;
+}
+
+.brand-page-section__top-hero--content .col:first-child {
+  align-items: center;
+  justify-content: center;
+}
+
+.brand-page-section__top-hero--content .col:last-child {
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 36px 20px 20px 0;
+}
+
+.brand-page-section__top-hero--content .col:last-child .logo img {
+  max-width: 130px;
+}
+
+/* Flea & Tick treatments */
+.brand-page-section__flea-tick {
+  display: block;
+}
+
+.brand-page-section__flea-tick--content .wrapper {
+  display: block;
+  overflow-y: auto;
+  margin: 0 auto;
+}
+.brand-page-section__flea-tick--content {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.brand-page-section__flea-tick--content .col {
+  width: 50%;
+}
+.brand-page-section__flea-tick--content .col .single-product {
+  padding: 15px;
+  text-align: center;
+  max-width: 250px;
+  margin: 0 auto;
+}
+
+.brand-page-section__flea-tick--content .col .single-product__img img {
+  max-width: 180px;
+}
+
+.brand-page-section__flea-tick--content .col .single-product__head {
+  font-family: "PetcoCircularTT-Bold", arial !important;
+  color: #000000;
+  font-size: 20px;
+  padding: 40px 0 20px;
+}
+.brand-page-section__flea-tick--content .col .single-product__subhead {
+  font-family: "PetcoCircularTT-Regular", arial !important;
+  color: #000000;
+  font-size: 16px;
+}
+
+/* Top picks to keep them pest-free */
+.brand-page-section__top-picks {
+  display: block;
+}
+
+.brand-page-section__top-picks--cta {
+  padding: 50px 0;
+}
+
+.brand-page-section__top-picks--content {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 20px 0;
+  overflow-y: auto;
+}
+.brand-page-section__top-picks--content .col {
+  width: 50%;
+}
+
+.brand-page-section__top-picks--content .col .single-product {
+  padding: 15px;
+  text-align: center;
+  max-width: 250px;
+  margin: 0 auto;
+}
+
+.brand-page-section__top-picks--content .col .single-product__img img {
+  max-width: 250px;
+}
+
+.brand-page-section__top-picks--content
+  .col
+  .single-product
+  .single-product__img
+  a {
+  text-decoration: none;
+  display: block;
+}
+
+.brand-page-section__top-picks--content .col .single-product__subhead a {
+  font-family: "PetcoCircularTT-Regular", arial !important;
+  color: #000000;
+  font-size: 15px;
+  line-height: 17px;
+  text-align: left;
+  padding: 20px 0 20px;
+  border-top: 2px solid #ddd;
+  margin-top: 20px;
+  text-decoration: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  max-height: 1.1em;
+  margin-bottom: 24px;
+}
+
+.brand-page-section__top-picks--content .col .single-product__cta {
+  text-align: left;
+}
+
+.brand-page-section__top-picks--content .col .single-product__cta a {
+  font-family: "PetcoCircularTT-Bold", arial !important;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 600;
+}
+.brand-page-section__top-picks--content .col .single-product__cta a:hover {
+  color: #00205b;
+}
+
+/* Video Section */
+.brand-page-section__videos {
+  display: block;
+  margin: 0px 0;
+  padding: 30px 0;
+}
+
+.videoContainer {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  overflow-x: auto;
+}
+.videoRow {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 20px;
+}
+.videoIframeCard {
+  width: 325px;
+  max-width: 100%;
+  margin: auto;
+  text-align: center;
+}
+.videoIframeCard iframe {
+  width: 320px;
+  height: 185px;
+}
+.videoIframeCard img {
+  max-width: 200px;
+  margin-top: 40px;
+}
+.videoIframeCard .text-area {
+  text-align: center;
+}
+
+.videoIframeCard .text-area__logo {
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+.videoIframeCard .text-area__copy {
+  padding: 20px 0 50px;
+  margin: 0 auto;
+  font-family: "PetcoCircularTT-Regular", arial !important;
+  font-size: 16px;
+  color: #333;
+}
+.videoIframeCard .elanco-cta-box a {
+  width: fit-content;
+  height: fit-content;
+  background: none;
+  font-family: "PetcoCircularTT-Bold", arial;
+  font-weight: bold;
+  font-size: 16px;
+  color: #00205b;
+  text-decoration: underline;
+}
+.videoIframeCard .text-area__disclaimer {
+  font-family: "PetcoCircularTT-Regular", arial !important;
+  font-size: 12px;
+  color: #333;
+  padding: 10px 0;
+}
+
+/* Bottom Hero Section */
+.brand-page-section__bottom-hero {
+  background: #2573ba;
+}
+
+.brand-page-section__bottom-hero--content {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+.brand-page-section__bottom-hero--content .col {
+  width: 50%;
+}
+
+.brand-page-section__bottom-hero--content .col .tubes__recom img {
+  margin: 0;
+}
+
+.brand-page-section__bottom-hero--content .disclaimer {
+  font-family: "PetcoCircularTT-Regular", arial !important;
+  font-size: 12px;
+  color: #fff;
+  max-width: 430px;
+  margin: 0 auto;
+  text-align: left;
+  position: absolute;
+  bottom: 10px;
+  left: 5%;
+}
+
+.brand-page-section__bottom-hero--content .disclaimer span {
+  display: block;
+  padding: 0 0 10px;
+}
+
+/* Refreshed updates */
+.citrus-elanco__bottom-hero--text {
+  text-align: center;
+  width: 40%;
+  padding: 0 15px;
+}
+.citrus-elanco__bottom-hero--text p {
+  padding: 20px 0;
+  font-family: "PetcoCircularTT-Regular", arial !important;
+  font-size: 16px;
+  color: #fff;
+}
+.citrus-elanco__bottom-hero--text h3 {
+  font-size: 25px;
+  font-family: "PetcoCircularTT-Bold", arial !important;
+  color: #fff;
+}
+.citrus-elanco__bottom-hero--shots {
+  display: flex;
+  position: relative;
+}
+.citrus-elanco__bottom-hero--shots p {
+  position: absolute;
+  right: -15%;
+  top: 20%;
+  color: #fff;
+  font-family: "PetcoCircularTT-Regular", arial !important;
+  font-size: 14px;
+}
+.citrus-elanco__bottom-hero--lifestyle {
+  display: flex;
+}
+
+.m-hide {
+  display: block;
+}
+.d-hide {
+  display: none;
+}
+
+@media screen and (min-width: 1700px) {
+  .brand-page-section__bottom-hero--content .disclaimer {
+    font-size: 20px;
+    left: 5%;
+    padding: 10px 15px 0;
+    max-width: 45%;
+  }
+
+  .citrus-elance-pov__content {
+    max-height: initial;
+    overflow: auto;
+  }
+  .citrus-elance-pov__content--logo {
+    margin: 0 30px;
+    max-width: 200px;
+  }
+
+  .citrus-elance-pov__content--text {
+    padding: 70px 50px 0;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  /* Top Hero */
+  .brand-page-section__top-hero--content .col {
+    padding: 36px;
+  }
+
+  /* Video Section */
+
+  .citrus-elance-pov__content--text p {
+    font-size: 10px;
+    padding: 10px 0;
+  }
+
+  .citrus-elance-pov__content--text .elanco-cta-box a {
+    min-width: 150px;
+  }
+
+  .citrus-elanco__bottom-hero--shots p {
+    position: absolute;
+    right: -40%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* Video Section */
+
+  .brand-page-section__bottom-hero--content .disclaimer {
+    font-size: 10px;
+    left: 5%;
+    padding: 10px 15px 0;
+    width: 45%;
+  }
+
+  .brand-page-section__bottom-hero--content .disclaimer span {
+    padding: 0 0 5px;
+  }
+
+  /* POV */
+  .citrus-elance-pov__content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 54%;
+  }
+
+  .citrus-elance-pov__content--text {
+    width: 40%;
+  }
+
+  .citrus-elance-pov__content--img img {
+    padding: 0;
+  }
+
+  .citrus-elance-pov__content--logo {
+    margin: 0 0 0 10px;
+  }
+
+  .citrus-elance-pov__content--text p {
+    font-size: 10px;
+    padding: 10px 0;
+  }
+
+  .citrus-elance-pov__content--text .elanco-cta-box a {
+    min-width: 130px;
+  }
+
+  .citrus-elanco__bottom-hero--text h3 {
+    font-size: 21px;
+  }
+  .citrus-elanco__bottom-hero--shots p {
+    font-size: 12px;
+    max-width: 130px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 767px) {
+  .m-hide {
+    display: none;
+  }
+  .d-hide {
+    display: block;
+  }
+  .elanco-cta-box a {
+    color: #00205b;
+    background-color: unset;
+    height: 54px;
+    font-size: 16px;
+    text-decoration: underline;
+    text-transform: capitalize;
+    min-width: 120px;
+  }
+  .section-title {
+    max-width: 260px;
+    margin: 0 auto;
+  }
+  /* Top Hero */
+  .brand-page-section__top-hero--content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+  }
+
+  .brand-page-section__top-hero--content .col {
+    width: 100%;
+    padding: 15px 0 0;
+  }
+
+  .brand-page-section__top-hero--content .col:last-child {
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 36px 0 0;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+  }
+
+  .brand-page-section__top-hero--content .headline {
+    line-height: 37px;
+  }
+
+  .brand-page-section__top-hero--content .col:last-child .logo img {
+    max-width: 70px;
+  }
+
+  .brand-page-section__top-hero--content .col .products-shots {
+    padding: 250px 0 15px;
+    text-align: left;
+    padding-left: 15px !important;
+  }
+
+  .brand-page-section__top-hero--content .col .products-shots img {
+    width: 80%;
+  }
+
+  .brand-page-section__top-hero {
+    background-image: none;
+    background: #2573ba;
+  }
+
+  .citrus-elance-pov__content {
+    flex-wrap: wrap;
+    width: 100%;
+    position: relative;
+    padding: 20px 0;
+    max-height: initial;
+    overflow: auto;
+  }
+
+  .citrus-elance-pov__content--logo {
+    max-width: 100px;
+  }
+
+  .citrus-elance-pov__content--text {
+    order: 3;
+    display: flex;
+    padding-top: 0;
+  }
+
+  .citrus-elance-pov__content--text .elanco-cta-box a {
+    color: #fff;
+  }
+
+  .citrus-elance-pov__content--text p {
+    padding: 0;
+  }
+
+  .citrus-elance-pov__content--img img {
+    max-width: 35%;
+  }
+
+  .citrus-elance-pov__content--imgMob {
+    position: absolute;
+    top: 20%;
+    right: 0;
+    width: 70%;
+  }
+
+  /* Video Section */
+
+  .brand-page-section__videos {
+    margin: 60px 0;
+  }
+
+  /* Flea Ticks */
+  .brand-page-section__flea-tick {
+    display: block;
+    margin: 0 auto;
+    overflow-y: auto;
+  }
+
+  .brand-page-section__flea-tick--content {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+    width: 100%;
+  }
+
+  .brand-page-section__flea-tick--content .col {
+    width: 100%;
+  }
+
+  /* Top picks to keep them pest-free */
+  .brand-page-section__top-picks {
+    overflow-y: auto;
+  }
+
+  .brand-page-section__top-picks--cta {
+    padding: 50px 0;
+  }
+
+  .brand-page-section__top-picks--content {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 20px 0;
+    width: 390%;
+  }
+
+  .brand-page-section__top-picks--content .col .single-product__img img {
+    max-width: 180px;
+  }
+
+  /* Bottom Hero */
+
+  .brand-page-section__bottom-hero--content {
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    min-height: 560px;
+  }
+
+  .brand-page-section__bottom-hero--content .disclaimer {
+    font-size: 10px;
+    position: unset;
+    left: 5%;
+    color: #000000;
+    padding: 10px 15px;
+  }
+
+  .brand-page-section__bottom-hero--content .col {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .brand-page-section__bottom-hero--content .col .tubes {
+    text-align: center;
+    position: absolute;
+    bottom: -30px;
+  }
+
+  .brand-page-section__bottom-hero--content .col .tubes img {
+    margin-bottom: 0;
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .brand-page-section__bottom-hero--content .col .tubes__disclaimer {
+    padding: 0 15px;
+    margin: -40px 0 40px;
+    text-align: center;
+  }
+
+  .brand-page-section__bottom-hero--content .col .tubes__recom img {
+    padding: 0;
+  }
+
+  /* Refreshed updates */
+  .brand-page-section__bottom-hero--content {
+    flex-wrap: wrap;
+  }
+
+  .citrus-elanco__bottom-hero--text {
+    width: 100%;
+    padding: 30px;
+  }
+
+  .citrus-elanco__bottom-hero--text .elanco-cta-box a {
+    color: #fff;
+  }
+
+  .citrus-elanco__bottom-hero--shots img {
+    margin-bottom: -20px;
+  }
+
+  .citrus-elanco__bottom-hero--shots p {
+    left: 15px;
+    top: 90%;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* Top Hero */
+  .brand-page-section__top-hero--content .col .products-shots {
+    padding: 210px 0 15px;
+  }
+
+  /* Bottom Hero */
+  .brand-page-section__bottom-hero--content .col .tubes {
+    text-align: center;
+  }
+
+  .brand-page-section__bottom-hero--content .col .tubes img {
+    margin-bottom: 0;
+    width: 80%;
+    margin: 0 auto;
+    padding: 120px 0 0;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  /* Bottom Hero */
+  .brand-page-section__bottom-hero--content .col .tubes__recom img {
+    padding: 0;
+    width: 50%;
+  }
+  .brand-page-section__bottom-hero--content .col .tubes img {
+    padding: 124px 0 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .brand-page-section__bottom-hero--content .col .tubes img {
+    padding: 160px 0 0;
+  }
+
+  .citrus-elanco__bottom-hero--shots p {
+    max-width: 130px;
+    text-align: center;
+  }
+}
