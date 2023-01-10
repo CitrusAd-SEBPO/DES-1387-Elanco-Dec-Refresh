@@ -356,14 +356,14 @@ p {
 
 /* Bottom Hero Section */
 .brand-page-section__bottom-hero {
-  background: #2573ba;
+  background: #2373b9;
 }
 
 .brand-page-section__bottom-hero--content {
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-wrap: nowrap;
 }
 .brand-page-section__bottom-hero--content .col {
@@ -394,8 +394,8 @@ p {
 /* Refreshed updates */
 .citrus-elanco__bottom-hero--text {
   text-align: center;
-  width: 40%;
-  padding: 0 15px;
+  /* width: 40%;
+  padding: 0 15px; */
 }
 .citrus-elanco__bottom-hero--text p {
   padding: 20px 0;
@@ -414,16 +414,17 @@ p {
 }
 .citrus-elanco__bottom-hero--shots p {
   position: absolute;
-  right: -15%;
-  top: 20%;
+  right: 0%;
+  top: 25%;
   color: #fff;
   font-family: "PetcoCircularTT-Regular", arial !important;
   font-size: 14px;
 }
-.citrus-elanco__bottom-hero--lifestyle {
-  display: flex;
+.citrus-elanco__bottom-hero--shots img {
+  width: 474px;
+  max-width: 100%;
+  object-fit: contain;
 }
-
 .m-hide {
   display: block;
 }
@@ -472,7 +473,7 @@ p {
 
   .citrus-elanco__bottom-hero--shots p {
     position: absolute;
-    right: -40%;
+    right: 0;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -525,6 +526,9 @@ p {
     font-size: 12px;
     max-width: 130px;
     text-align: center;
+  }
+  .citrus-elanco__bottom-hero--shots p {
+    right: 10%;
   }
 }
 @media screen and (max-width: 767px) {
@@ -685,7 +689,7 @@ p {
     align-items: center;
     justify-content: center;
     position: relative;
-    min-height: 560px;
+    padding: 32px 30px 48px 30px;
   }
 
   .brand-page-section__bottom-hero--content .disclaimer {
@@ -732,15 +736,11 @@ p {
 
   .citrus-elanco__bottom-hero--text {
     width: 100%;
-    padding: 30px;
+    padding: 0px;
   }
 
   .citrus-elanco__bottom-hero--text .elanco-cta-box a {
     color: #fff;
-  }
-
-  .citrus-elanco__bottom-hero--shots img {
-    margin-bottom: -20px;
   }
 
   .citrus-elanco__bottom-hero--shots p {
