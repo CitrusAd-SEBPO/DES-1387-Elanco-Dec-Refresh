@@ -256,10 +256,10 @@ p {
   font-family: "PetcoCircularTT-Regular", arial !important;
   color: #000000;
   font-size: 15px;
-  line-height: 17px;
+  line-height: 20px;
   text-align: left;
   padding: 20px 0 20px;
-  border-top: 2px solid #ddd;
+  border-top: 0px solid #ddd;
   margin-top: 20px;
   text-decoration: none;
   overflow: hidden;
@@ -268,7 +268,7 @@ p {
   -webkit-line-clamp: 2;
   line-clamp: 2;
   -webkit-box-orient: vertical;
-  max-height: 1.1em;
+  max-height: 4em;
   margin-bottom: 24px;
 }
 
@@ -278,7 +278,7 @@ p {
 
 .brand-page-section__top-picks--content .col .single-product__cta a {
   font-family: "PetcoCircularTT-Bold", arial !important;
-  color: #000000;
+  color: #00205b;
   font-size: 16px;
   font-weight: 600;
 }
